@@ -1,11 +1,12 @@
-import '../css/styles.css';
+import '../../../css/styles.css';
 import React, { Component, useState } from 'react';
 import {Navbar, NavbarBrand, Nav, NavItem, NavLink, Collapse, NavbarToggler} from 'reactstrap';
+import { BrowserRouter, Route, Link } from "react-router-dom";
 function NavBar(props){
         const [collapsed, setCollapsed] = useState(true);
         const toggleNavbar = () => setCollapsed(!collapsed);
         return(
-                <Navbar light expand="lg" className = "position-lg-absolute w-100 top-0">
+                <Navbar light expand="lg" className = " w-100 top-0">
                         <NavbarBrand href="/" className = "bg-brand mx-lg-5 mx-3">JM</NavbarBrand>
                         <NavbarToggler onClick={toggleNavbar} className = "me-2 flex-column justify-content-end align-items-end"/>
                         <Collapse isOpen={!collapsed} navbar className = "d-lg-flex justify-content-end align-items-end">
@@ -36,7 +37,10 @@ function NavBar(props){
 class Header extends Component{
     render(){
         return(
-            <NavBar />
+            <>
+                <NavBar />
+                <Link to = "/certificates">Certificates</Link>
+            </>
         )
     }
 }

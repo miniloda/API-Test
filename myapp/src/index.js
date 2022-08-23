@@ -4,8 +4,24 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './css/styles.css'
 import './css/index.css';
 import "./css/bootstrap.css";
-import App from './App';
+import Layout from './Layout';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import CertificatesPage from "./pages/certificates-archive/certificates-page.jsx";
+import MainLayout from "./pages/main/MainLayout";
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path = "/" element = {<Layout />}>
+          <Route index element = {<MainLayout />}/>
+          <Route path = "certificates" element = {<CertificatesPage />}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
