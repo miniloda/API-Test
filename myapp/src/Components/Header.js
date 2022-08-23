@@ -1,4 +1,4 @@
-import './styles.css';
+import '../css/styles.css';
 import React, { Component, useState } from 'react';
 import {Navbar, NavbarBrand, Nav, NavItem, NavLink, Collapse, NavbarToggler} from 'reactstrap';
 function NavBar(props){
