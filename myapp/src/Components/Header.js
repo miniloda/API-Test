@@ -11,22 +11,22 @@ function NavBar(props){
                         <Collapse isOpen={!collapsed} navbar className = "d-lg-flex justify-content-end align-items-end">
                             <Nav navbar className = "d-lg-flex justify-content-end align-items-end mx-3">
                                 <NavItem>
-                                    <NavLink href="/">Home</NavLink>
+                                    <NavLink href="#about"><i className='fa fa-info'></i>About</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="/about">About</NavLink>
+                                    <NavLink href="#skills"><i className="fa-solid fa-code"></i> Skills</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="/contact">Contact</NavLink>
+                                    <NavLink href="#projects"><i className="fa-solid fa-bars-progress"></i> Projects </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink></NavLink>
+                                    <NavLink href = "#certificates"><i className="fa-solid fa-certificate"></i>Certificates</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink></NavLink>
+                                    <NavLink href = "#contact"><i className="fa-solid fa-address-card"></i> Contact </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink></NavLink>
+                                    <NavLink href = "/Resume.pdf"><i className="fa-solid fa-file"></i> Resume</NavLink>
                                 </NavItem>
                             </Nav>
                         </Collapse>
