@@ -9,7 +9,7 @@ function NavBar(props){
                         <NavbarBrand href="/" className = "bg-brand mx-lg-5 mx-3">JM</NavbarBrand>
                         <NavbarToggler onClick={toggleNavbar} className = "me-2 flex-column justify-content-end align-items-end"/>
                         <Collapse isOpen={!collapsed} navbar className = "d-lg-flex justify-content-end align-items-end">
-                            <Nav navbar className = "d-lg-flex justify-content-end align-items-end mx-3">
+                            <Nav navbar>
                                 <NavItem>
                                     <NavLink href="#about"><i className='fa fa-info'></i>About</NavLink>
                                 </NavItem>
