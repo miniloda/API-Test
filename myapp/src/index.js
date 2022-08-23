@@ -13,7 +13,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path = "/" element = {<Layout />}>
+        <Route path = "/React-Portfolio" element = {<Layout />}>
           <Route index element = {<MainLayout />}/>
           <Route path = "certificates" element = {<CertificatesPage />}/>
         </Route>
