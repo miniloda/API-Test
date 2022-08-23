@@ -1,0 +1,136 @@
+
+/* additional boostrap customization */
+.nav-item{
+    margin-left:1rem;
+}
+nav{
+    top:0;
+}
+.vh-50{
+    height: 50vh;
+}
+.vh-25{
+    height: 25vh;
+}
+.banner{
+    height: 100vh;
+}
+@media (max-width: 768px) {
+    .banner{
+        height: 50vh !important;
+    }
+}
+@media(min-width: 970px){
+    .position-lg-absolute{
+        position: absolute !important;
+       
+    }
+}   
+
+/* for paragraph */
+/* @media(min-width: 768px){
+    p{
+        font-size: 1rem;
+    }
+}
+@media(max-width: 768px){
+    p{
+        font-size: 0.8rem;
+    }
+}
+@media(max-width: 576px){
+    p{
+        font-size: 0.6rem;
+    }
+}
+@media(max-width: 480px){
+    p{
+        font-size: 0.5rem;
+    }
+}
+@media(max-width: 360px){
+    p{
+        font-size: 0.4rem;
+    }
+} */
+
+/* for icons */
+/* @media(min-width: 768px){
+    i{
+        font-size: 2.5rem;
+    }
+}
+@media(max-width: 768px){
+    i{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width: 576px){
+    i{
+        font-size: 1.1rem;
+    }
+}
+@media(max-width: 480px){
+    i{
+        font-size: 1rem;
+    }
+}
+@media(max-width: 360px){
+    i{
+        font-size: 0.9rem;
+    }
+} */
+
+/* for h1 */
+/* @media(min-width: 768px){
+    h1{
+        font-size: 3rem;
+    }
+}
+@media(max-width: 768px){
+    h1{
+        font-size: 2rem;
+    }
+}
+@media(max-width: 576px){
+    h1{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width: 480px){
+    h1{
+        font-size: 1.3rem;
+    }
+}
+@media(max-width: 360px){
+    h1{
+        font-size: 1.1rem;
+    }
+} */
+
+/* for h2 */
+/* @media(min-width: 768px){
+    h2{
+        font-size: 2.0rem !important;
+    }
+}
+@media(max-width: 768px){
+    h2{
+        font-size: 1.5rem !important;
+    }
+}
+@media(max-width: 576px){
+    h2{
+        font-size: 1.3rem !important;
+    }
+}
+@media(max-width: 480px){
+    h2{
+        font-size: 1.1rem !important;
+    }
+}
+@media(max-width: 360px){
+    h2{
+        font-size: 0.9rem !important;
+    }
+}  */
