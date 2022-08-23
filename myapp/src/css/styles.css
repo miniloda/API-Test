@@ -97,31 +97,6 @@ li>a:hover{
 .bottom-bar-active{
   width:30px;
 }
-/* State when navbar is opened (START) */
-/* .navbar-toggler .top-bar {
-    transform: rotate(45deg);
-    transform-origin: 10% 10%;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-} */
-
-/* .navbar-toggler .middle-bar {
-    opacity: 0;
-    filter: alpha(opacity=0);
-} */
-
-/* .navbar-toggler .bottom-bar {
-    transform: rotate(-45deg);
-    transform-origin: 10% 90%;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-} */
-/* State when navbar is opened (END) */
-
 /* State when navbar is collapsed (START) */
 .navbar-toggler.collapsed .top-bar {
     transform: rotate(0);
