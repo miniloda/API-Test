@@ -3,7 +3,7 @@ import React from 'react';
 function CertPage(){
     return (
         <div>
-            <h1>Certificates Page</h1>
+            <h2>Welcome to the Archives</h2>
         </div>
     )
 }

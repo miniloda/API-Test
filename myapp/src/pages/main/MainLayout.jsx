@@ -1,9 +1,15 @@
 import React from 'react';
-import Header from './Components/Header';
-
+import Hero from "./Components/Hero";
+import About from "./Components/About";
 const MainLayout = () => {
     return (
-            <Header />
+        <div className="container">
+            <Hero />
+            <div className="vh-100">
+                
+            </div>
+            <About />
+        </div>
     )
 }
 export default MainLayout;

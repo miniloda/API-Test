@@ -1,4 +1,4 @@
-import '../../../css/styles.css';
+import './css/styles.css';
 import React, { Component, useState } from 'react';
 import {Navbar, NavbarBrand, Nav, NavItem, NavLink, Collapse, NavbarToggler} from 'reactstrap';
 import { BrowserRouter, Route, Link } from "react-router-dom";
@@ -12,7 +12,7 @@ function NavBar(props){
                         <Collapse isOpen={!collapsed} navbar className = "d-lg-flex justify-content-end align-items-end">
                             <Nav navbar>
                                 <NavItem>
-                                    <NavLink href="#about"><i className='fa fa-info'></i>About</NavLink>
+                                    <NavLink href="/React-Portfolio#about"><i className='fa fa-info'></i>About</NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="#skills"><i className="fa-solid fa-code"></i> Skills</NavLink>

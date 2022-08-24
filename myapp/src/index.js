@@ -6,16 +6,18 @@ import './css/index.css';
 import "./css/bootstrap.css";
 import Layout from './Layout';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import CertificatesPage from "./pages/certificates-archive/certificates-page.jsx";
+import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
+import CertPage from "./pages/certificates-archive/certificates-page.jsx";
 import MainLayout from "./pages/main/MainLayout";
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path = "/React-Portfolio" element = {<Layout />}>
-          <Route index element = {<MainLayout />}/>
-          <Route path = "certificates" element = {<CertificatesPage />}/>
+        <Route path="/" element = {<Navigate to = "/React-Portfolio" replace />}>
+        </Route>
+        <Route path = "/" element = {<Layout />}>
+          <Route path = "React-Portfolio" element = {<MainLayout />}/>
+          <Route path = "certificates" element = {<CertPage />}/>
         </Route>
       </Routes>
     </BrowserRouter>
